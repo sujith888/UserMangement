@@ -1,0 +1,16 @@
+.header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .login-logout button {
+    margin-right: 1rem;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  

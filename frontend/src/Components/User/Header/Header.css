@@ -1,0 +1,32 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .login-buttons {
+    display: flex;
+  }
+  
+  .login, .logout {
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .login:hover, .logout:hover {
+    background-color: black;
+    color: white;
+  }
+  
